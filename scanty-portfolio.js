@@ -135,10 +135,10 @@ document.querySelectorAll('.projects-grid').forEach(grid => {
 
 // ---- Contact data ----
 const CONTACTS = [
-  { label: 'Email', handle: 'scanty@example.com', href: 'mailto:scanty@example.com', icon: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>' },
-  { label: 'Telegram', handle: '@scanty', href: 'https://t.me/scanty', icon: '<path d="M21 4 3 11.5l6 2m12-9.5-4 16-8-6.5m12-9.5L9 13"/>' },
-  { label: 'TikTok', handle: '@scanty', href: 'https://www.tiktok.com/@scanty', icon: '<path d="M16 3v9.5a3.5 3.5 0 1 1-3-3.46V6.5a6 6 0 1 0 6 6V8.8A6.5 6.5 0 0 0 22 9V6a4 4 0 0 1-4-3z"/>' },
-  { label: 'GitHub', handle: '@scanty', href: 'https://github.com/scanty', icon: '<path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.6 2.8 5.5 3.1 5.5 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.1 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>' },
+  { label: 'Email', handle: '@DEV_SCANTY', href: 'mailto:githubvps33@gmail.com', icon: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>' },
+  { label: 'Telegram', handle: '@DEV_SCANTY', href: 'https://t.me/SCANTYGAMING', icon: '<path d="M21 4 3 11.5l6 2m12-9.5-4 16-8-6.5m12-9.5L9 13"/>' },
+  { label: 'TikTok', handle: '@DEV_SCANTY', href: 'https://www.tiktok.com/@ogscantygaming', icon: '<path d="M16 3v9.5a3.5 3.5 0 1 1-3-3.46V6.5a6 6 0 1 0 6 6V8.8A6.5 6.5 0 0 0 22 9V6a4 4 0 0 1-4-3z"/>' },
+  { label: 'GitHub', handle: '@DEV_SCANTY', href: 'https://github.com/scanty', icon: '<path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.6 2.8 5.5 3.1 5.5 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.1 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>' },
 ];
 const contactGrid = document.getElementById('contactGrid');
 CONTACTS.forEach(c => {
