@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="spooky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scanty — Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scanty-portfolio.css">
+
+</head>
+<body>
+
+<div class="grid-overlay"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Scanty<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="theme-dock">
+  <div class="theme-swatches" id="themeSwatches">
+    <div class="swatch" data-t="spooky" title="Spooky Violet"></div>
+    <div class="swatch" data-t="cyberpunk" title="Cyberpunk"></div>
+    <div class="swatch" data-t="forest" title="Forest Witch"></div>
+    <div class="swatch" data-t="ocean" title="Midnight Ocean"></div>
+    <div class="swatch" data-t="sunset" title="Sunset Ember"></div>
+    <div class="swatch" data-t="daylight" title="Daylight"></div>
+  </div>
+</div>
+
+<div class="wrap" id="top">
+
+  <section class="hero" style="border-top:none;">
+    <div class="particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow mono">DEVELOPER &amp; ROBOTICS BUILDER</p>
+      <h1 class="name">Scanty</h1>
+      <div class="role-wrap"><p class="role" id="roleText">&nbsp;</p></div>
+      <p class="tagline">I work across <strong>embedded robotics</strong> and the <strong>web</strong> — programming SPIKE Prime, Arduino, and EV3 hardware, and building sites and tools with HTML, CSS, JavaScript, Python, and Node.js.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="scroll-cue"><span class="line"></span>scroll</div>
+  </section>
+
+  <section id="about" class="reveal">
+    <p class="section-num mono">01</p>
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <div class="about">
+        <p>I like the kind of programming you can watch happen — a motor turning, a light blinking, a sensor reacting to something in the room. That's what pulled me toward robotics first, and it's the same instinct that got me into building for the web: seeing something respond immediately to what you just wrote.</p>
+        <p>Most of what's here is hands-on, self-directed learning — building small projects, breaking them, and figuring out why, one bug at a time.</p>
+      </div>
+      <div class="about-facts" id="aboutFacts">
+        <div class="fact"><div class="fact-label mono">FOCUS</div><div class="fact-value">Robotics &amp; Web Development</div></div>
+        <div class="fact"><div class="fact-label mono">CURRENTLY LEARNING</div><div class="fact-value">Arduino, C++, and full-stack JS</div></div>
+        <div class="fact"><div class="fact-label mono">APPROACH</div><div class="fact-value">Build it, break it, fix it</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <p class="section-num mono">02</p>
+    <h2 class="section-title">Skills</h2>
+    <p class="section-sub">Split into hardware and software — though the interesting projects usually live in both at once.</p>
+    <div id="skillGroups"></div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <p class="section-num mono">03</p>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">A few things built along the way — small, hands-on, and genuinely mine.</p>
+    <div class="projects-grid" id="projectGrid"></div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <p class="section-num mono">04</p>
+    <h2 class="section-title">Reach me</h2>
+    <p class="section-sub">Happy to talk projects, robotics, or code — whichever door you come in through.</p>
+    <div class="contact-grid" id="contactGrid"></div>
+  </section>
+
+  <footer>
+    <span>Scanty · built by hand</span>
+    <span class="mono">est. this year</span>
+  </footer>
+
+</div>
+
+<script src="scanty-portfolio.js" defer></script>
+
+
+</body>
+</html>

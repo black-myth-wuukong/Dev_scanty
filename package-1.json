@@ -1,0 +1,18 @@
+{
+  "name": "scanty-portfolio",
+  "version": "1.0.0",
+  "description": "Dark, theme-switching developer portfolio for Scanty — robotics (SPIKE Prime, Arduino, EV3) and web development (HTML, CSS, JS, Node.js).",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "robotics",
+    "spike-prime",
+    "arduino"
+  ],
+  "author": "Scanty",
+  "license": "MIT"
+}
